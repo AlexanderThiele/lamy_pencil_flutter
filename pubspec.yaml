@@ -1,0 +1,26 @@
+name: lamy_pencil_flutter
+description: "Flutter Wrapper for Lamy iPadOS SDK"
+version: 0.0.1
+homepage: https://thiele.dev
+repository: https://github.com/AlexanderThiele/lamy_pencil_flutter
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: '>=3.3.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.1.8
+  equatable: ^2.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: LamyPencilFlutterPlugin
