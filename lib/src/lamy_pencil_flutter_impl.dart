@@ -86,10 +86,10 @@ class LamyPencilFlutterImpl extends LamyPencilFlutter {
           case "button2":
             switch (call.arguments) {
               case "down":
-                callback(LamyButtonEvent(button: LamyButton.button2, state: LamyButtonState.up));
+                callback(LamyButtonEvent(button: LamyButton.button2, state: LamyButtonState.down));
                 break;
               case "up":
-                callback(LamyButtonEvent(button: LamyButton.button2, state: LamyButtonState.down));
+                callback(LamyButtonEvent(button: LamyButton.button2, state: LamyButtonState.up));
                 break;
               default:
                 print("Got an event that is not supported: ${call.method}, ${call.arguments}");

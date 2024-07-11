@@ -1,6 +1,6 @@
 name: lamy_pencil_flutter
 description: "Flutter Wrapper for Lamy iPadOS SDK"
-version: 0.0.1
+version: 0.0.2
 homepage: https://thiele.dev
 repository: https://github.com/AlexanderThiele/lamy_pencil_flutter
 
